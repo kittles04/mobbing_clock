@@ -3,11 +3,18 @@ body {
   color: white;
   font-size: 30px;
   text-align: center;
-  #container {
+  .App {
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
+  }
+
+  #container {
+    .main-title {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
     .length-control {
       width: 250px;
       display: inline-block;
@@ -28,11 +35,28 @@ body {
     }
     .material-icons {
       background: #1e555c;
+      color: aliceblue;
     }
-  }
-  .main-title {
-    font-size: 50px;
-    margin-bottom: 20px;
+    .timer {
+      border: 7px solid #13353a;
+      margin: 20px auto 10px auto;
+      width: 270px;
+      height: 160px;
+      border-radius: 50px;
+      position: relative;
+    }
+    #start_stop {
+      background-color: #1e555c;
+    }
+
+    #reset {
+      background-color: #1e555c;
+    }
+
+    #time-left {
+      font-family: digital;
+      font-size: 80px;
+    }
   }
 }
 

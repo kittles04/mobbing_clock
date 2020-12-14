@@ -1,5 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
+import TimeBlock from "./TimeBlock";
+import Controls from "./Controls";
 import "../index";
 
 const MobbingClock = (props) => {
@@ -30,6 +32,8 @@ const MobbingClock = (props) => {
           <i class="small material-icons">arrow_upward</i>
         </button>
       </div>
+      <TimeBlock />
+      <Controls />
     </div>
   );
 };
