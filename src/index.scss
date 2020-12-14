@@ -1,0 +1,42 @@
+body {
+  background: #1e555c;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  #container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    .length-control {
+      width: 250px;
+      display: inline-block;
+    }
+    .btn-level {
+      display: inline-block;
+      background: #1e555c;
+    }
+    .btn-level:nth-child(3) {
+      width: 40px;
+    }
+    .button {
+      background: none;
+      outline: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+    .material-icons {
+      background: #1e555c;
+    }
+  }
+  .main-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
