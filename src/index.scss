@@ -44,8 +44,11 @@ body {
       height: 160px;
       border-radius: 50px;
       position: relative;
+      .warning {
+        color: orangered;
+      }
     }
-    #start,
+    #start_stop,
     #stop {
       background-color: #1e555c;
     }
